@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.5)50%), url(MADARA.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200;
+    height: 75;
+    float: left;
+}
+
+.logo{
+    color: rgb(116, 6, 14);
+    font-family: Arial;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(116, 6, 14);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 220px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 220px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid  rgb(116, 6, 14);
+    margin-top: 17px;
+    font-size: 17px;
+    float: left;
+    padding: 10px;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  rgb(116, 6, 14);
+    border: 2px  rgb(116, 6, 14);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: none;
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+
+.content .par{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.content h1{
+    padding-left: 20px;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 7%;
+    letter-spacing: 2px;
+
+}
+
+.content .con{
+    width: 160px;
+    height: 40px;
+    background: rgb(116, 6, 14);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.content .con a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+}
+
+.con:hover{
+    background: rgb(104, 94, 94);
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(116, 6, 14);
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(116, 6, 14);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline:none ;
+}
+
+::placeholder{
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background: rgb(116, 6, 14);
+    transition: 00.5s ease-in-out;
+}
+.btnn:hover{
+    background-color: rgb(104, 94, 94);
+    
+}
+
+.form .btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 00.5s ease-in-out;
+}
+
+.link{
+    padding-top: 15px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.link a{
+    color: rgb(116, 6, 14);
+    text-decoration: none;
+}
+
+.logw{
+    padding-top: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    padding-left: 23.5px;
+    padding-top: 20px;
+    font-size: 30px;
+    transition: 00.5s ease-in-out;
+}
+
+.icons ion-icon:hover{
+    color: rgb(116, 6, 14);
+}
